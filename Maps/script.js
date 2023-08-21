@@ -9,8 +9,3 @@ function initMap() {
         map:map
     });
 }
-// AIza
-//SyBo7gYpGb
-//Y8YLBMF6Bi
-//o0cM4Caknk
-//1nywo
