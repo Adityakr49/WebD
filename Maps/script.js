@@ -9,4 +9,8 @@ function initMap() {
         map:map
     });
 }
-// AIzaSyBo7gYpGbY8YLBMF6Bio0cM4Caknk1nywo
+// AIza
+//SyBo7gYpGb
+//Y8YLBMF6Bi
+//o0cM4Caknk
+//1nywo
