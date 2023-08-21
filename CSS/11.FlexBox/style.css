@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    height: 400px;
+    border: 2px solid red;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* gap: 10px; */
+    /* row-gap: 10px; */
+    flex-flow: row;
+    /* flex-flow: wrap row; shorthand for flex-direction
+    and flex-wrap*/
+
+    /* justify-content: space-around; */
+    justify-content: center;
+
+
+    /* flex-start flex-end space-between */
+    align-items: center;
+    /* flex-end  */
+
+    align-content: space-evenly;
+    /* space-between flex-start space-around */
+}
+.box{
+    border: 1px solid green;
+    /* margin: 10px; */
+    width: 80px;
+    /* flex-basis: 25%; */
+}
+#box-1{
+    /* order: 1; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 2; */
+    /* flex-basis: 100px; */
+}
+#box-3{
+    /* flex-grow: 2; */
+    align-self: stretch;
+}
+#box-4{
+    /* flex-shrink: 3; */
+
+    /* flex: 0 2 200px; */
+    /* flex is shorthand property for flex-grow flex-shrink
+    flex-basis */
+}

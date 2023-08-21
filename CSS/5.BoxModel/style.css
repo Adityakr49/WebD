@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    /* Default margin is give of 8px by browser*/
+}
+*{
+    /* to make all default margin zero */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 20px solid red;
+    padding: 30px;
+    margin: 40px;
+}

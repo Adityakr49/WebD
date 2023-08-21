@@ -1,0 +1,25 @@
+body {
+    background-color: red;
+}
+
+/* @media (min-width: 400px) and (max-width: 600px) {
+    body {
+        background-color: green;
+    }
+} */
+/* 
+media screen for screens
+media print for website print
+media all for both
+ */
+@media screen and (400px <= width <= 600px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* @media (min-width: 600px) {
+    body {
+        background-color: gold;
+    }
+} */

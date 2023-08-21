@@ -1,0 +1,27 @@
+*{
+    font-family: sans-serif;
+}
+/* Highest priority */
+body{
+    font-size: 24px;
+}
+p:hover{
+    font-family: monospace;
+}
+/* pseudo selector */
+
+#first,#second{
+    color: red;
+}
+#first>p{
+    color: green;
+}
+.purple{
+    color: purple !important;
+    font-family: monospace;
+}
+.highlight{
+    background-color: blue;
+    font-weight:bold;
+}
+/* specificity # > . > elements*/

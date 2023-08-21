@@ -1,0 +1,29 @@
+main{
+    border: 5px solid brown;
+    /* width: 50%; */
+    width: 50vw;
+}
+body{
+    font-size: 2em;
+}
+header{
+    font-size: 2em;
+}
+h1{
+    font-size: 3rem;
+    /* rem->root em which is absolute so it will be 3em size 
+    not relative to anything else */
+    /* font-size: 40px; */
+}
+/* pixel and vw or vh is absolute em and % is relative to its parent*/
+/* Try to use relative units as if someone inc text size
+in their bowser nothing will happen if absolute is used */
+p{
+    font-size: 1.5rem;
+}
+section{
+    border: 5px dashed green;
+    /* width: 50%; */
+    width: 50vw;
+    /* height: 200vh; */
+}

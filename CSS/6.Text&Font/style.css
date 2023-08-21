@@ -1,0 +1,41 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Rubik+Pixels&display=swap'); */
+h1 {
+    /* text-decoration: line-through;
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+    text-decoration-style: wavy; */
+    color: transparent;
+    text-shadow: 3px 3px 5px red, 8px 5px 1px blue;
+    /* text shadow 3px->3px down a and y axis */
+    /* 3rd param for blurring */
+    color: black;
+    /* background-color: limegreen; */
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    text-indent: 40px;
+    letter-spacing: 0.1rem;
+    line-height: 1.6rem;
+
+    /* font-family: 'Rubik Pixels', cursive; */
+    /* font-family: 'Roboto Condensed', sans-serif; */
+
+    /* sans-serif aerial etc are web safe font that are
+    available in every browser so fall back should be one of them */
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+a {
+    text-decoration: line-through;
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+    text-decoration-style: wavy;
+
+}
